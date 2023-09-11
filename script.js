@@ -21,14 +21,14 @@ let won = 0;
 
 
 function play(element){
-    if(user_turn % 2 !== 0 && won===0)
+    if(user_turn % 2 !== 0 && won===0&&element.textContent ==='?')
     {
         element.textContent = "X";
         title.textContent ="O turn"
         
     
     }
-    else if(user_turn % 2 === 0 && won===0)
+    else if(user_turn % 2 === 0 && won===0&&element.textContent ==='?')
     {
         element.textContent = "O";
         title.textContent ="X turn"
