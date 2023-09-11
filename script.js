@@ -25,6 +25,7 @@ function play(element){
     {
         element.textContent = "X";
         title.textContent ="O turn"
+         ++user_turn;
         
     
     }
@@ -32,8 +33,9 @@ function play(element){
     {
         element.textContent = "O";
         title.textContent ="X turn"
+         ++user_turn;
     }
-    ++user_turn;
+   
     rules();
    
 }
